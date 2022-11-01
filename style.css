@@ -1,0 +1,108 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: hsl(204, 43%, 93%);
+}
+
+.container {
+    width: 700px;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 100px auto;
+}
+
+.main {
+    width: 100%;
+    background-color: white;
+    padding: 40px;
+}
+
+.main h1 {
+    font-size: 28px;
+    margin: 20px 0;
+    color: hsl(179, 62%, 43%);
+}
+
+.main h2 {
+    margin: 20px 0;
+    font-size: 22px;
+    color: hsl(71, 73%, 54%);
+}
+
+.main p {
+    font-size: 16px;
+    color: hsl(218, 22%, 67%);
+}
+
+.pricing {
+    background-color: hsl(179, 62%, 43%);
+    width: 50%;
+    padding: 40px;
+}
+
+.pricing h2 {
+    color: white;
+    font-size: 22px;
+    font-weight: 300;
+    margin: 20px 0;
+}
+
+.pricing .price {
+    margin: 20px 0;
+    color: white;
+    font-size: 28px;
+}
+
+.pricing span {
+    position: absolute;
+    font-size: 16px;
+    margin: 5px 10px;
+    color: hsl(204, 43%, 93%);
+}
+
+.pricing p {
+    color: hsl(204, 43%, 93%);
+    font-size: 16px;
+}
+
+.pricing button {
+    padding: 10px 80px;
+    color: white;
+    background-color: hsl(71, 73%, 54%);
+    border: none;
+    border-radius: 5px;
+    margin: 20px 0;
+}
+
+.info {
+    margin: 0;
+    width: 50%;
+    background-color: hsla(179, 60%, 56%, 0.753);
+    padding: 40px;
+}
+
+.info h2 {
+    margin: 28px 0;
+    color: white
+}
+
+.info p {
+    color: hsl(204, 43%, 93%);
+    margin: 32px 5px;
+}
+
+@media(max-width :991px) {
+    .container {
+        width: 400px;
+    }
+    .main,
+    .info,
+    .pricing {
+        width: 100%;
+    }
+}
